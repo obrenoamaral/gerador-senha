@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');
+
+body {
+    font-family: 'Oxanium', cursive;
+    margin: 0;
+    padding: 0; 
+    font-size: 12px;
+    background-color: rgb(2, 1, 0);
+    height: 100vh;
+}
+
+h1,p {
+    padding: 0;
+    margin: 0;
+}
+
+.containerMain {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 70vh;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    border-radius: 20px;
+}
+
+.title {
+    color: rgb(255, 252, 255);
+    font-size: 3em;
+    margin: 20px;
+    padding: 0;
+}
+
+.paragraph {
+    color: rgb(255, 252, 255);
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.image {
+    width: 30px;
+}
+
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.inputStyle {
+    background-color: rgb(255, 252, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 38vw;
+    height: 10vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.inputPassword {
+    text-align: center;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+}
+
+.passwordStyle {
+    width: 30vw;
+}
+
+.containerRange {
+    width: 20vw;
+}
+
+.rangeStyle {
+        -webkit-appearance: none;
+        background: rgb(255, 252, 255);
+        outline: none;
+        width: 100%;
+        height: 21px;
+        border-radius: 9px;   
+}
+
+.rangeStyle::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+
+    background: rgb(77, 204, 189);
+    cursor: pointer;
+}
