@@ -33,7 +33,7 @@ h1,p {
     text-align: center;
     background-color: rgb(17, 114, 106);
     border-radius: 20px;
-    min-width: 320px;
+    min-width: 420px;
 }
 
 .title {
@@ -70,7 +70,7 @@ h1,p {
     height: 10vh;
     border-radius: 10px;
     margin-bottom: 20px;
-    min-width: 310px;
+    min-width: 410px;
 }
 
 .inputPassword {
